@@ -29,7 +29,8 @@ sonarqube {
     property "sonar.organization", "vijayvani-github"
     property "sonar.host.url", "https://sonarcloud.io"
   }
-}
+} 
+
 wrapper {
     distributionType = org.gradle.api.tasks.wrapper.Wrapper.DistributionType.ALL
 }
